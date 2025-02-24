@@ -1,0 +1,50 @@
+@charset "utf-8";
+.img1 {
+	background-image: url(../imagenes/imagenindex.jpg);
+	background-repeat: no-repeat;
+	background-position: center 44%;
+	background-size: cover;
+}
+.ferrari1 {
+    background-image: url(../imagenes/ferrari1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 62%;
+}
+.xfont {
+    font-style: oblique;
+    text-decoration: overline;
+    text-shadow: 0px 0px;
+    vertical-align: middle;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+.fondotext {
+    background-color: rgba(0,0,0,0.53);
+    background-position: 0% 0%;
+    background-clip: border-box;
+    border-radius: 0px 0px 136px;
+}
+.colortext {
+	color: rgba(255,255,255,1.00);
+}
+.boldfont {
+	font-weight: bold;
+}
+.italic {
+	font-style: italic;
+}
+
+
+
+.mt2 {
+}
+.disable {
+}
+.ford1 {
+    background-image: url(../imagenes/ford1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
