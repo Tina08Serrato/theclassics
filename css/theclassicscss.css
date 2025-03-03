@@ -1,28 +1,32 @@
 @charset "utf-8";
 .img1 {
-	background-image: url(../imagenes/imagenindex.jpg);
-	background-repeat: no-repeat;
-	background-position: center 44%;
-	background-size: cover;
+    background-image: url(../imagenes/imagenindex.png);
+    background-repeat: no-repeat;
+    background-position: center 44%;
+    background-size: cover;
 }
+.textfinal {
+    font-size: 108%;
+}
+
 .ferrari1 {
-    background-image: url(../imagenes/ferrari1.jpg);
+    background-image: url(../imagenes/ferrari1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 62%;
 }
 .xfont {
     font-style: oblique;
-    text-decoration: overline;
     text-shadow: 0px 0px;
     vertical-align: middle;
     font-size: xx-large;
     text-align: center;
+    text-decoration: none;
 }
 
 
 .fondotext {
-    background-color: rgba(0,0,0,0.53);
+    background-color: rgba(0,0,0,0.67);
     background-position: 0% 0%;
     background-clip: border-box;
     border-radius: 0px 0px 136px;
@@ -31,8 +35,34 @@
 	color: rgba(255,255,255,1.00);
 }
 .boldfont {
-	font-weight: bold;
+    font-weight: bold;
+    font-style: normal;
 }
+.boton {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+.colornota {
+    color: #C30003;
+}
+
+
+.testimonio {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    line-height: 106%;
+}
+
+.tipocard {
+    float: left;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 103%;
+    line-height: 116%;
+    text-decoration: none;
+}
+
 .italic {
 	font-style: italic;
 }
@@ -44,7 +74,31 @@
 .disable {
 }
 .ford1 {
-    background-image: url(../imagenes/ford1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url(../imagenes/ford1.png);
+}
+.logo {
+    background-image: url(../imagenes/Logo.png);
+    background-size: contain;
+    background-position: -94% 0%;
+    background-repeat: no-repeat;
+    border-right-style: none;
+}
+.fondopag {
+    background-image: url(../imagenes/fondopag.jpg);
+    background-repeat: repeat;
+}
+.video {
+    background-image: url(../imagenes/24387-342401483_small.mp4);
+    background-position: center center;
+    background-size: 3% -35%;
+    border-spacing: 0px 0px;
+}
+.indextext {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size: 69%;
+}
+.fondogris {
+    background-color: #ECEEF1;
 }
